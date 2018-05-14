@@ -1,0 +1,12 @@
+Source: yubikey-personalization
+Maintainer: Mark Buda <hermit@acm.org>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 10)
+
+Package: yubikey-personalization
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: yubikey personalization program
+ Yubikey personalization program
